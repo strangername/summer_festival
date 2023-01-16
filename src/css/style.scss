@@ -64,6 +64,7 @@ body {
 	max-height: 1000px;
 	border: 0px solid var(--black);
 	overflow: hidden;
+	background-color: var(--black);
 
 
 	max-width: 1440px;
@@ -398,7 +399,7 @@ main {
 }
 
 .main__img_stars {
-	background: url("/img/background_img_5.jpg");
+	background: url("../img/background_img_5.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -636,7 +637,7 @@ main {
 
 
 /*		FOOTER		 */
-footer {
+body footer {
 	background-color: var(--black);
 }
 .footer__date {
